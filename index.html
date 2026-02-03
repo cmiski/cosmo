@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>cosmo</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="icon" href="./assets/img/icon.png" type="image/png" />
+  </head>
+  <body>
+    <div class="stars" id="starfield"></div>
+    <div class="blur-overlay" id="blur-overlay"></div>
+
+    <section id="image-section">
+      <div class="info">
+        <span id="date" data-label="IMAGE DATE">Loading...</span>
+        <span id="time" data-label="TIME NOW">--:--:--</span>
+      </div>
+
+      <div id="media-container">
+        <img
+          id="apod-img"
+          alt="Astronomy Picture of the Day"
+          style="display: none"
+        />
+        <video
+          id="apod-video"
+          controls
+          autoplay
+          muted
+          loop
+          style="display: none"
+        ></video>
+      </div>
+
+      <div class="image-title" id="image-title"></div>
+
+      <button class="fullscreen-btn" id="fullscreen-btn" title="Fullscreen">
+        ⛶
+      </button>
+
+      <div class="controls">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Search cosmos..."
+          autocomplete="off"
+        />
+        <button id="search-btn">Search</button>
+      </div>
+      <div id="meow"></div>
+      <div class="keyword-container" id="keyword-container">
+        <div class="keyword-scroll" id="keyword-scroll"></div>
+      </div>
+
+      <button class="next-btn" id="next-btn" title="Next">→</button>
+    </section>
+
+    <section id="explanation-section">
+      <div class="container">
+        <h2>Observation</h2>
+        <div id="explanation" class="loading">
+          <div class="spinner"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="femfem">
+      <div class="feet">
+        <img id="nico" src="./assets/img/footer.png" alt="" />
+        <a class="cmi" target="_blank" href="https://github.com/cmiski"
+          >cmiski</a
+        >
+        <a class="cmi" target="_blank" href="https://github.com/cmiski"
+          >cmiski</a
+        >
+        <a class="cmi" target="_blank" href="https://github.com/cmiski"
+          >cmiski</a
+        >
+        <a class="cmi" target="_blank" href="https://github.com/cmiski"
+          >cmiski</a
+        >
+        <a class="cmi" target="_blank" href="https://github.com/cmiski"
+          >cmiski</a
+        >
+        <a class="cmi" target="_blank" href="https://github.com/cmiski"
+          >cmiski</a
+        >
+      </div>
+    </footer>
+
+    <div class="popup-notification" id="popup-notification">
+      No results found - showing random
+    </div>
+    <script  type="module" src="./assets/js/main.js"></script>
+  </body>
+</html>
