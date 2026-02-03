@@ -1,7 +1,6 @@
-# COSMO 
+# [COSMO](https://c-o-s-m-o.netlify.app/) 
 
-[Live Demo](https://c-o-s-m-o.netlify.app/)   
-
+  
 COSMO is a lightweight NASA media explorer built using vanilla HTML, CSS, and JavaScript. It fetches space-related images and videos from NASA’s public Images API and displays them in a clean, immersive interface with search support, keyword suggestions, fullscreen mode, and a dynamic starfield background.
 
 I created this project to practice real-world frontend development fundamentals such as DOM manipulation, modular JavaScript structure, asynchronous API handling, UI state management, and responsive design.
